@@ -1,11 +1,38 @@
-# Taxi Project
+# Taxi Application (ReactJS and Laravel)
 
-This project is a taxi management application structured into two main parts:
+Welcome to the Taxi Application! This project consists of a frontend built with **ReactJS** and **Vite** in the `taxi` folder and a backend API created with **Laravel** in the `server` folder. Below you will find instructions on how to set up and run both parts of the application.
 
-## Taxi Folder
+## Table of Contents
 
-The **taxi** folder contains the frontend of the application, which has been built using **React.js** and **Vite**. This part of the application is responsible for the user interface and user interactions.
+- [Features](#features)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
+- [Frontend (Taxi)](#frontend-taxi)
+- [Backend (Server)](#backend-server)
 
-## Server Folder
 
-The **server** folder contains the API of the application, which has been developed using **Laravel**. This part handles the backend logic and communication with the database, allowing for the management of bookings and taxi information.
+## Features
+
+- User-friendly interface for taxi Selling.
+- Fast and responsive design using ReactJS and Vite.
+- RESTful API built with Laravel for managing bookings and users.
+
+## Installation
+
+To get started, clone the repository and navigate to both the `taxi` and `server` directories to install the required dependencies.
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/texi-sell.git
+cd taxi
+npm install or yarn add
+npm run dev
+````
+## Backend Installation
+````bash
+cd server
+composer install
+php artisan migrate
+php artisan serve
+
